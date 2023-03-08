@@ -24,4 +24,4 @@ video_min_duration_bucket,
 placement_type,
 auction_type,
 app_or_site,
-from auction_data_raw
+from auction_data
