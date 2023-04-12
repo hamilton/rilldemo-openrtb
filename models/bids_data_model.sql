@@ -52,4 +52,4 @@ video_skip_cnt,
 video_start_cnt,
 video_third_quartile_cnt,
 winning_bid_price_usd
-from bids_data_raw
+from bids_data
