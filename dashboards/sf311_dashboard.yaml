@@ -1,0 +1,55 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "sf311_dashboard"
+model: "sf311_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "opened"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Closed
+    property: closed
+    description: ""
+  - label: Status
+    property: status
+    description: ""
+  - label: Status_notes
+    property: status_notes
+    description: ""
+  - label: Responsible_agency
+    property: responsible_agency
+    description: ""
+  - label: Category
+    property: category
+    description: ""
+  - label: Request_type
+    property: request_type
+    description: ""
+  - label: Request_details
+    property: request_details
+    description: ""
+  - label: Address
+    property: address
+    description: ""
+  - label: Street
+    property: street
+    description: ""
+  - label: Neighborhood
+    property: neighborhood
+    description: ""
+  - label: Police_district
+    property: police_district
+    description: ""
+  - label: Point
+    property: point
+    description: ""
+  - label: Source
+    property: source
+    description: ""
+  - label: Media_url
+    property: media_url
+    description: ""
