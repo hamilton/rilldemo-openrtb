@@ -17,9 +17,9 @@ measures:
     description: "1D QPS"
     format_preset: humanize
 dimensions:
-  - label: App-Site Name
-    property: app_site_name
-    description: ""
+  # - label: App-Site Name
+  #   property: app_site_name
+  #   description: ""
   - label: App Site Domain
     property: app_site_domain
     description: ""
