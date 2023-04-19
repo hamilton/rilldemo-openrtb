@@ -1,0 +1,115 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "nyc311_reduced_dashboard"
+model: "nyc311_reduced_model_2"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "created_date"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Closed_date
+    property: closed_date
+    description: ""
+  - label: Agency
+    property: agency
+    description: ""
+  - label: Agency_name
+    property: agency_name
+    description: ""
+  - label: Complaint_type
+    property: complaint_type
+    description: ""
+  - label: Descriptor
+    property: descriptor
+    description: ""
+  - label: Location_type
+    property: location_type
+    description: ""
+  - label: Incident_zip
+    property: incident_zip
+    description: ""
+  - label: Incident_address
+    property: incident_address
+    description: ""
+  - label: Street_name
+    property: street_name
+    description: ""
+  - label: Cross_street_1
+    property: cross_street_1
+    description: ""
+  - label: Cross_street_2
+    property: cross_street_2
+    description: ""
+  - label: Intersection_street_1
+    property: intersection_street_1
+    description: ""
+  - label: Intersection_street_2
+    property: intersection_street_2
+    description: ""
+  - label: Address_type
+    property: address_type
+    description: ""
+  - label: City
+    property: city
+    description: ""
+  - label: Landmark
+    property: landmark
+    description: ""
+  - label: Facility_type
+    property: facility_type
+    description: ""
+  - label: Status
+    property: status
+    description: ""
+  - label: Due_date
+    property: due_date
+    description: ""
+  - label: Resolution_description
+    property: resolution_description
+    description: ""
+  - label: Resolution_action_updated_date
+    property: resolution_action_updated_date
+    description: ""
+  - label: Community_board
+    property: community_board
+    description: ""
+  - label: Borough
+    property: borough
+    description: ""
+  - label: Open_data_channel_type
+    property: open_data_channel_type
+    description: ""
+  - label: Park_facility_name
+    property: park_facility_name
+    description: ""
+  - label: Park_borough
+    property: park_borough
+    description: ""
+  - label: Vehicle_type
+    property: vehicle_type
+    description: ""
+  - label: Taxi_company_borough
+    property: taxi_company_borough
+    description: ""
+  - label: Taxi_pick_up_location
+    property: taxi_pick_up_location
+    description: ""
+  - label: Bridge_highway_name
+    property: bridge_highway_name
+    description: ""
+  - label: Bridge_highway_direction
+    property: bridge_highway_direction
+    description: ""
+  - label: Road_ramp
+    property: road_ramp
+    description: ""
+  - label: Bridge_highway_segment
+    property: bridge_highway_segment
+    description: ""
+  - label: Location
+    property: location
+    description: ""
