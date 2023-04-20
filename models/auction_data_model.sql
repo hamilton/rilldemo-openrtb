@@ -24,4 +24,4 @@ select
   placement_type,
   auction_type,
   app_or_site,
-from auction_data
+from auction_datas
